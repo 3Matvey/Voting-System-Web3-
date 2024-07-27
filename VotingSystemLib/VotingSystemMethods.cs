@@ -5,7 +5,7 @@ namespace VotingSystemLib
 {
     public partial class VotingSystem : SmartContract, IVotingContract
     {
-        public const string RemoteUrl = "https://raw.githubusercontent.com/3Matvey/Voting-System-Web3-DApp-/main/contract/build/contracts/Voting.json";
+        public const string RemoteUrl = "https://raw.githubusercontent.com/3Matvey/Voting-System-Web3-/master/contract/build/contracts/Voting.json";
 
         public int CandidatesCount { get => _candidatesCount; }
         private int _candidatesCount; 
